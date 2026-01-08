@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: ton_projet_bq
+    schema: jaffle_shop
+    tables:
+      - name: customers
